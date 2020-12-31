@@ -39,6 +39,35 @@ div {
 
 
 
+#laser {
+    transform-origin: center center;
+    transform: rotate(-2deg);
+	animation: laser 3s ease-in-out infinite;
+}
+
+#paws {
+    transform-origin: center center;
+    transform: rotate(-2deg);
+	animation: laser 3s ease-in-out infinite;
+}
+
+#ltail {
+    transform-origin: bottom left;
+    transform: rotate(-5deg);
+	animation: tailbob2 0.2s ease-in-out infinite;
+}
+
+#light {
+    margin-top: 30px;
+    transform: translate(-100px);
+	animation: light 3s ease-in-out infinite;
+}
+
+#lhead {
+    transform: rotate(0deg);
+	animation: headbob 0.1s ease-in-out infinite;
+}
+
 @keyframes tailbob {
 
     0% {
@@ -51,6 +80,22 @@ div {
 
     100% {
         transform: rotate(-2deg);
+    }
+}
+
+
+@keyframes tailbob2 {
+
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
     }
 }
 
@@ -86,6 +131,21 @@ div {
 }
 
 
+@keyframes headbob {
+
+    0% {
+        transform: translatey(-2px);
+    }
+
+    50% {
+        transform: translatey(2px);
+    }
+
+    100% {
+        transform: translatey(-2px);
+    }
+}
+
 @keyframes tap2 {
 	0% {
 		
@@ -99,4 +159,35 @@ div {
 		
 		transform: translatey(20px);
 	}
+}
+
+
+@keyframes laser {
+
+    0% {
+        transform: rotate(-30deg);
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+@keyframes light {
+
+    0% {
+        transform: translatex(70px);
+    }
+
+    50% {
+        transform: translatex(-70px);
+    }
+
+    100% {
+        transform: translatex(70px);
+    }
 }
