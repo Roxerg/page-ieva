@@ -19,15 +19,28 @@ body {
 .row {
     width: auto;
 }
+
+.pink {
+    color: #ffb6b6;
+}
+
+h1 {
+    font-size: 8vh;
+}
+
+h2 {
+    font-size: 2vh;
+    line-height: 0.7em;
+}
 .flex-item {
     /* background-color: tomato; */
-    padding: 5px;
+    padding: 0.1em;
     width: 10em;
-    margin: 10px;
-    line-height: 20px;
+    margin: 0.2em;
+    line-height: 1em;
     color: black;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 5vh;
     text-align: center;
 }
 
@@ -38,7 +51,7 @@ a {
 }
 
 a:link {
-    color: red;
+    color: grey;
 }
 
 /* visited link */
