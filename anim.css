@@ -49,31 +49,31 @@ div {
 #laser {
     transform-origin: center center;
     transform: rotate(-2deg);
-	animation: laser 3s ease-in-out infinite;
+	animation: laser 7s ease-in-out infinite;
 }
 
 #paws {
     transform-origin: center center;
     transform: rotate(-2deg);
-	animation: laser 3s ease-in-out infinite;
+	animation: laser 7s ease-in-out infinite;
 }
 
 #ltail {
     transform-origin: bottom left;
     transform: rotate(-5deg);
-	animation: tailbob2 0.2s ease-in-out infinite;
+	animation: tailbob2 3s ease-in-out infinite;
 }
 
 #light {
     max-width: 50%;
     margin-top: 1em;
     transform: translate(-2em);
-	animation: light 3s ease-in-out infinite;
+	animation: light 7s ease-in-out infinite;
 }
 
 #lhead {
     transform: rotate(0deg);
-	animation: headbob 0.1s ease-in-out infinite;
+	animation: headbob 5s ease-in-out infinite;
 }
 
 @keyframes tailbob {
